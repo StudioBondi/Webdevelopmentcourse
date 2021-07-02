@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Dit is mijn toepasselijke titel</title>
+    </head>
+    <body>
+        <h1>dit is mijn header</h1>
+        <hr>
+        <h2>dit is mijn subheader</h2>
+        <hr>
+        <p>dit is een paragraaf met een <br> line break</p>
+
+    </body>
+</html>
