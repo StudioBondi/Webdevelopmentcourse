@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <h1>Welkom op mijn about pagina</h1>
+<a href="Index.html">en weer een linkje terug naar de index pagina</a>
+
+<h3>Hier een mooie Winc foto van Google</h3>
+
+<img width="200" src="https://global-uploads.webflow.com/5ee34869dd28cd4237e2a5f2/5f58fea7e8de69c05d92390e_cropped-logo%20liggend.png" alt="">
+</body>
+
+</html>
