@@ -1,10 +1,43 @@
 body{
-    color:red
+    color: black
+    }
+
+body{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 10%;
 }
 .blackborder{
     border: 5px solid black;
+    margin-left: 5px
+    
+
 }
-#green-background {
-    background-color: green;
+h1{
+  
+    text-align: center
+
+    ;
+}
+h2{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-bottom: 10 px
+    
+    ;
+}
+p{
+padding: 10px 5px;
+}
+.centreren{
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
 }
 
+li{
+ display: inline;
+    
+}
