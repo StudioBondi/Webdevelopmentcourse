@@ -10,11 +10,59 @@
     <div class="blackborder">
 
         <body>
-            <input type="text" value="Naam">
-            <input type="email" value="email">
-            <textarea name="text" id="" cols="30" rows="10" value="text"></textarea>
-            <input type="button" value="submit">
 
+            <form name="contact" method="POST" data-netlify="true">
+                <p>
+                    <label>Naam: <input type="text" name="name" /></label>
+                </p>
+                <p>
+                    <label>Email: <input type="email" name="email" /></label>
+                </p>
+                <p>
+                    <label>Telefoonnummer: <input type="number" name="Telefoonnummer" /></label>
+                </p>
+                <p>
+                    <label>Leeftijd <input type="number" name="leeftijd" /></label>
+                </p>
+                <p>
+                    <label>geboortedatum <input type="date" name="geboortedatum" /></label>
+                </p>
+                <p>
+                    <label>Gender <input type="radio" name="gender" /></label>
+
+                </p>
+                <p>
+                    <label>cuisine <input type="checkbox" name="name" />
+                        <select>
+                            <option value="Frans">Frans</option>
+                            <option value="Italiaans">Italiaans</option>
+                            <option value="Spaans">Spaans</option>
+                        </select>
+                    </label>
+                </p>
+                <p>
+                    <label>kleur schort<input type="color" name="kleur" /></label>
+
+                </p>
+                <p>
+                    <label>Biografie: <textarea name="biografie"></textarea></label>
+                </p>
+                <p>
+                    <label>Upload <input type="file" name="upload"> </label>
+
+                </p>
+                <p>
+                    <label>URL <input type="url" name="url" /></label>
+
+                </p>
+                <p>
+                    <label>reset <button type="reset">reset</button> /> </label>
+
+                </p>
+                <p>
+                    <label>submit <button type="submit">submit</button> /> </label>
+                </p>
+            </form>
 
 
         </body>
